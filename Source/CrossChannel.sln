@@ -13,8 +13,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossChannel.Net40", "Cross
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossChannel.Net35", "CrossChannel\CrossChannel.Net35.csproj", "{9DB8CBC2-F427-4961-8264-E1A436791027}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossChannel.Net20", "CrossChannel\CrossChannel.Net20.csproj", "{410EF85E-2F4A-45A2-8E87-F56D155FBBFF}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossChannel.Portable40", "CrossChannel\CrossChannel.Portable40.csproj", "{07E4F824-B56D-4CA4-B679-2C065CF8C307}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossChannel.Portable45", "CrossChannel\CrossChannel.Portable45.csproj", "{C29724A7-5693-4B8E-8BAC-B05E7135E9FE}"
@@ -24,7 +22,6 @@ EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		CrossChannel\CrossChannel.projitems*{9db8cbc2-f427-4961-8264-e1a436791027}*SharedItemsImports = 4
-		CrossChannel\CrossChannel.projitems*{410ef85e-2f4a-45a2-8e87-f56d155fbbff}*SharedItemsImports = 4
 		CrossChannel\CrossChannel.projitems*{07e4f824-b56d-4ca4-b679-2c065cf8c307}*SharedItemsImports = 4
 		CrossChannel\CrossChannel.projitems*{9b86ce9d-b7bd-4e0b-896c-91c9d0bca678}*SharedItemsImports = 4
 		CrossChannel\CrossChannel.projitems*{4f319a7f-ba3e-45ea-b064-2e2ab58cf0e1}*SharedItemsImports = 4
@@ -54,10 +51,6 @@ Global
 		{9DB8CBC2-F427-4961-8264-E1A436791027}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DB8CBC2-F427-4961-8264-E1A436791027}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DB8CBC2-F427-4961-8264-E1A436791027}.Release|Any CPU.Build.0 = Release|Any CPU
-		{410EF85E-2F4A-45A2-8E87-F56D155FBBFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{410EF85E-2F4A-45A2-8E87-F56D155FBBFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{410EF85E-2F4A-45A2-8E87-F56D155FBBFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{410EF85E-2F4A-45A2-8E87-F56D155FBBFF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{07E4F824-B56D-4CA4-B679-2C065CF8C307}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{07E4F824-B56D-4CA4-B679-2C065CF8C307}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07E4F824-B56D-4CA4-B679-2C065CF8C307}.Release|Any CPU.ActiveCfg = Release|Any CPU
