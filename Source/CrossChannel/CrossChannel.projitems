@@ -7,7 +7,12 @@
   </PropertyGroup>
   <PropertyGroup Label="Configuration" />
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)BroadcastReceiver.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BroadcastSender.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Channel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ChannelMode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IBroadcastReceiver.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IBroadcastSender.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IChannel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Properties\AssemblyInfo.cs" />
   </ItemGroup>
