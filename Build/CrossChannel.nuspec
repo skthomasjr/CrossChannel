@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>CrossChannel</id>
+        <version></version>
+        <title>CrossChannel</title>
+        <description>CrossChannel is ...</description>
+        <authors>Scott Keith Thomas, Jr.</authors>
+        <language>en-US</language>
+        <projectUrl></projectUrl>
+        <iconUrl></iconUrl>
+        <licenseUrl></licenseUrl>
+        <tags>P2P IPC CrossChannel</tags>
+        <dependencies>
+            <group targetFramework=".NETFramework4.61" />
+            <group targetFramework=".NETFramework4.6" />
+            <group targetFramework=".NETFramework4.5" />
+            <group targetFramework=".NETFramework4.0" />
+            <group targetFramework=".NETFramework3.5" />
+            <group targetFramework=".NETFramework2.0" />
+            <group targetFramework=".NETPortable4.5-Profile259" />
+            <group targetFramework=".NETPortable4.0-Profile328" />
+        </dependencies>
+    </metadata>
+</package>
