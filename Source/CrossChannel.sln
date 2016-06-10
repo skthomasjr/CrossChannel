@@ -11,12 +11,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossChannel.Net45", "Cross
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossChannel.Net46", "CrossChannel\CrossChannel.Net46.csproj", "{9D9B3B70-982B-4F2D-A783-2252D5799720}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossChannel.Net40", "CrossChannel\CrossChannel.Net40.csproj", "{4F319A7F-BA3E-45EA-B064-2E2AB58CF0E1}"
-EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		CrossChannel\CrossChannel.projitems*{9b86ce9d-b7bd-4e0b-896c-91c9d0bca678}*SharedItemsImports = 4
-		CrossChannel\CrossChannel.projitems*{4f319a7f-ba3e-45ea-b064-2e2ab58cf0e1}*SharedItemsImports = 4
 		CrossChannel\CrossChannel.projitems*{9d9b3b70-982b-4f2d-a783-2252d5799720}*SharedItemsImports = 4
 		CrossChannel\CrossChannel.projitems*{481174f3-6e30-4153-9055-66dbac62fbdf}*SharedItemsImports = 13
 		CrossChannel\CrossChannel.projitems*{60b41925-6ded-4543-aa38-6c90bf6bb1dc}*SharedItemsImports = 4
@@ -38,10 +35,6 @@ Global
 		{9D9B3B70-982B-4F2D-A783-2252D5799720}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D9B3B70-982B-4F2D-A783-2252D5799720}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D9B3B70-982B-4F2D-A783-2252D5799720}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4F319A7F-BA3E-45EA-B064-2E2AB58CF0E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4F319A7F-BA3E-45EA-B064-2E2AB58CF0E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4F319A7F-BA3E-45EA-B064-2E2AB58CF0E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4F319A7F-BA3E-45EA-B064-2E2AB58CF0E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
