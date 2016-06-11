@@ -64,6 +64,9 @@ namespace CrossChannel
         {
             if (!disposing) return;
 
+            MessageReceived = null;
+            ExceptionThrown = null;
+
             host.Close();
             host = null;
         }
