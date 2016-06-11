@@ -14,5 +14,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)IBroadcastReceiver.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IBroadcastSender.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IChannel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Properties\AssemblyInfo.cs" />
   </ItemGroup>
 </Project>

@@ -5,24 +5,31 @@ using System.ServiceModel.PeerResolvers;
 namespace CrossChannel
 {
     [ServiceBehavior(ConcurrencyMode = ConcurrencyMode.Reentrant, InstanceContextMode = InstanceContextMode.Single)]
-    public class BroadcastReceiver<T> : IBroadcastReceiver<T>, IDisposable
+    public class BroadcastReceiver<T> : IBroadcastReceiver<T>
     {
         private ServiceHost host;
 
-        public void Close()
+        public IChannel Channel { get; private set; }
+
+        public Action<T> MessageReceived { get; set; }
+
+        public Action<T, Exception> ExceptionThrown { get; set; }
+
+        public virtual void ReceiveMessage(T message)
         {
-            host.Close();
+            try
+            {
+                MessageReceived?.Invoke(message);
+            }
+            catch (Exception ex)
+            {
+                ExceptionThrown?.Invoke(message, ex);
+            }
         }
 
-        public virtual void MessageReceived(T message)
+        public void Open(IChannel channel)
         {
-            OnMessageReceived?.Invoke(message);
-        }
-
-        public void Open(IChannel channel, Action<T> onMessageReceived = null)
-        {
-            OnMessageReceived = onMessageReceived;
-
+            Channel = channel;
             host = new ServiceHost(this);
 
             if (channel?.Mode == ChannelMode.Local)
@@ -30,7 +37,7 @@ namespace CrossChannel
                 var localBinding = new NetNamedPipeBinding();
                 localBinding.Security.Mode = NetNamedPipeSecurityMode.Transport;
 
-                var localEndpoint = new Uri($"net.pipe://localhost/{channel.Name}.{typeof(T).Name}");
+                var localEndpoint = new Uri($"net.pipe://localhost/{channel.Name}");
                 host.AddServiceEndpoint(typeof(IBroadcastReceiver<T>), localBinding, localEndpoint);
             }
 
@@ -40,16 +47,14 @@ namespace CrossChannel
                 meshBinding.Resolver.Mode = PeerResolverMode.Pnrp;
                 meshBinding.Security.Mode = SecurityMode.None;
 
-                var meshEndpoint = new Uri($"net.p2p://{channel.Name}.{typeof(T).Name}");
+                var meshEndpoint = new Uri($"net.p2p://{channel.Name}");
                 host.AddServiceEndpoint(typeof(IBroadcastReceiver<T>), meshBinding, meshEndpoint);
             }
 
             host.Open();
         }
 
-        public Action<T> OnMessageReceived { get; set; }
-
-        public void Dispose()
+        void IDisposable.Dispose()
         {
             Dispose(true);
             GC.SuppressFinalize(this);
@@ -59,7 +64,7 @@ namespace CrossChannel
         {
             if (!disposing) return;
 
-            Close();
+            host.Close();
             host = null;
         }
     }

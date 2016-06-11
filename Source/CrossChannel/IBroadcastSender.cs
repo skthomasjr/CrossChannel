@@ -1,14 +1,24 @@
-﻿using System.Threading;
+﻿using System;
+using System.Threading;
+
+#if (!NET30 && !NET35 && !NET40)
 using System.Threading.Tasks;
+#endif
 
 namespace CrossChannel
 {
-    public interface IBroadcastSender<in T>
+    public interface IBroadcastSender<T>
     {
-        void Close();
+        IChannel Channel { get; }
 
-        Task SendAsync(T message, CancellationToken cancellationToken = default(CancellationToken));
+        Action<T, Exception> ExceptionThrown { get; set; }
 
         void Open(IChannel channel);
+
+        void Send(T message);
+
+#if (!NET30 && !NET35 && !NET40)
+        Task SendAsync(T message, CancellationToken cancellationToken = default(CancellationToken));
+#endif
     }
 }

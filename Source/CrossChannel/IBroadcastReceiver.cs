@@ -4,15 +4,17 @@ using System.ServiceModel;
 namespace CrossChannel
 {
     [ServiceContract]
-    public interface IBroadcastReceiver<T>
+    public interface IBroadcastReceiver<T> : IDisposable
     {
-        Action<T> OnMessageReceived { get; set; }
+        IChannel Channel { get; }
 
-        void Close();
+        Action<T, Exception> ExceptionThrown { get; set; }
+
+        Action<T> MessageReceived { get; set; }
 
         [OperationContract(IsOneWay = true)]
-        void MessageReceived(T message);
+        void ReceiveMessage(T message);
 
-        void Open(IChannel channel, Action<T> onMessageReceived = null);
+        void Open(IChannel channel);
     }
 }
