@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>CrossChannel</id>
-    <version>1.0.5</version>
+    <version>1.0.6</version>
     <authors>Scott Keith Thomas, Jr.</authors>
     <description>CrossChannel is a framework for simple peer-to-peer (P2P) and inter-process communication (IPC).</description>
     <tags>CrossChannel IPC Mesh P2P Peer Process WCF TCP</tags>

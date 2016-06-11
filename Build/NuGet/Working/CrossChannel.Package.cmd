@@ -41,10 +41,10 @@ echo Packaging...
 
 echo.
 echo Moving package...
-move CrossChannel.1.0.5.nupkg ..\Packages\
+move CrossChannel.1.0.6.nupkg ..\Packages\
 
 echo.
 echo Pushing package...
-..\..\..\Tools\NuGet\nuget.exe push ..\Packages\CrossChannel.1.0.5.nupkg %NuGetApiKey% -Source https://www.nuget.org/api/v2/package
+..\..\..\Tools\NuGet\nuget.exe push ..\Packages\CrossChannel.1.0.6.nupkg %NuGetApiKey% -Source https://www.nuget.org/api/v2/package
 
 pause
