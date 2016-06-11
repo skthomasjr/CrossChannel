@@ -7,7 +7,7 @@ namespace CrossChannel.Tests
     [TestClass]
     public class CrossChannelTest
     {
-        private readonly TimeSpan timeout = TimeSpan.FromMilliseconds(2750);
+        private readonly TimeSpan timeout = TimeSpan.FromMilliseconds(750);
         private const string channelName = "Test";
         private readonly IChannel localTestChannel = new Channel(channelName);
         private readonly IChannel meshTestChannel = new Channel(channelName, ChannelMode.Mesh);
