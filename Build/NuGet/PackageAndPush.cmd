@@ -1,7 +1,7 @@
 @echo off
 echo Creating NuGet package
-set Name=CommandArguments
-set Version=1.0.0
+set Name=CrossChannel
+set Version=1.0.6
 
 echo.
 echo Cleaning convention based working directory...
