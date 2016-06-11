@@ -2,7 +2,9 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/Source/CrossChannel/bin/Debug
-/Source/CrossChannel/obj/Debug
-/Source/.vs/CrossChannel/v14
+.vs
+*.suo
 *.user
+bin
+obj
+packages
