@@ -8,4 +8,8 @@
 bin
 obj
 packages
+*/nuget/working/build
+*/nuget/working/content
+*/nuget/working/lib
+*/nuget/working/tools
 !*/nuget/packages
