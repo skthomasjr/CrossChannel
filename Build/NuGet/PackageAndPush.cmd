@@ -48,5 +48,3 @@ move %Name%.%Version%.nupkg Packages
 echo.
 echo Pushing package...
 ..\..\Tools\NuGet\nuget.exe push Packages\%Name%.%Version%.nupkg %NuGetApiKey% -Source https://www.nuget.org/api/v2/package
-
-pause
