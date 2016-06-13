@@ -1,7 +1,7 @@
 @echo off
 echo Creating NuGet package
 set Name=CrossChannel
-set Version=1.0.6
+set Version=%APPVEYOR_BUILD_VERSION%
 
 echo.
 echo Cleaning convention based working directory...
