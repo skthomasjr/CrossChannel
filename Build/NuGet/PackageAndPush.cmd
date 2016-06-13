@@ -1,6 +1,6 @@
 @echo off
 echo Creating NuGet package
-set Name=CrossChannel
+set Name=%APPVEYOR_PROJECT_NAME%
 set Version=%APPVEYOR_BUILD_VERSION%
 cd /d %~dp0
 
