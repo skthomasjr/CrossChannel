@@ -6,6 +6,11 @@ assembly_info:
   assembly_version: '{version}'
   assembly_file_version: '{version}'
   assembly_informational_version: '{version}'
+environment:
+  NuGetApiKey:
+    secure: /0Z5Cw06AdhoTRWdDCY6lEf6mL6m2WzkA1KgiJnjwFfpHVgfdDMdqVHQPpnI1K6O
 build:
   project: .\Source\CrossChannel.sln
   verbosity: minimal
+on_finish:
+- cmd: .\Build\NuGet\PackageAndPush.cmd
