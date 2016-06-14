@@ -9,8 +9,9 @@ assembly_info:
 environment:
   NuGetApiKey:
     secure: /0Z5Cw06AdhoTRWdDCY6lEf6mL6m2WzkA1KgiJnjwFfpHVgfdDMdqVHQPpnI1K6O
+  NuGetPackageId: $(APPVEYOR_PROJECT_NAME)
 build:
-  project: .\Source\CrossChannel.sln
-  verbosity: minimal
+  project: .\Source\$(APPVEYOR_PROJECT_NAME).sln
+  verbosity: normal
 on_finish:
 - cmd: .\Build\NuGet\PackageAndPush.cmd
