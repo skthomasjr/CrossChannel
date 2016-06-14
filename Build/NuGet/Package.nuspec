@@ -6,8 +6,8 @@
     <authors>Scott Keith Thomas, Jr.</authors>
     <description>CrossChannel is a framework for simple peer-to-peer (P2P) and inter-process communication (IPC).</description>
     <tags>CrossChannel IPC Mesh P2P Peer Process WCF TCP</tags>
-    <iconUrl>https://github.com/skthomasjr/CrossChannel/tree/master/Build/NuGet/Package/Icon.png</iconUrl>
-    <licenseUrl>https://github.com/skthomasjr/CrossChannel/blob/master/LICENSE.md</licenseUrl>
+    <iconUrl>https://raw.githubusercontent.com/skthomasjr/CrossChannel/master/Build/NuGet/Package.png</iconUrl>
+    <licenseUrl>https://raw.githubusercontent.com/skthomasjr/CrossChannel/master/LICENSE.md</licenseUrl>
     <projectUrl>https://github.com/skthomasjr/CrossChannel</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
   </metadata>
