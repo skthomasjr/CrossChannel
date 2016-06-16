@@ -21,7 +21,7 @@ deploy:
   api_key:
     secure: /0Z5Cw06AdhoTRWdDCY6lEf6mL6m2WzkA1KgiJnjwFfpHVgfdDMdqVHQPpnI1K6O
   skip_symbols: false
-  artifact: /.*\.nupkg/
+  artifact: $(NUGET_PACKAGE_ID).$(APPVEYOR_BUILD_VERSION).nupkg
   on:
     branch: master
     appveyor_repo_tag: false # Change to true for realeasing only git tag/releases.
