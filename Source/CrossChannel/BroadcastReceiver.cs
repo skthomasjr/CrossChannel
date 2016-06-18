@@ -4,17 +4,37 @@ using System.ServiceModel.PeerResolvers;
 
 namespace CrossChannel
 {
+    /// <summary>
+    /// The broadcast receiver.
+    /// </summary>
+    /// <typeparam name="T">The message type.</typeparam>
     [ServiceBehavior(ConcurrencyMode = ConcurrencyMode.Reentrant, InstanceContextMode = InstanceContextMode.Single)]
     public class BroadcastReceiver<T> : IBroadcastReceiver<T>
     {
         private ServiceHost host;
 
+        /// <summary>
+        /// Gets the channel.
+        /// </summary>
+        /// <value>The channel.</value>
         public IChannel Channel { get; private set; }
 
+        /// <summary>
+        /// Gets or sets the message received action.
+        /// </summary>
+        /// <value>The message received.</value>
         public Action<T> MessageReceived { get; set; }
 
+        /// <summary>
+        /// Gets or sets the action to be executed when an exception is thrown.
+        /// </summary>
+        /// <value>The exception thrown.</value>
         public Action<T, Exception> ExceptionThrown { get; set; }
 
+        /// <summary>
+        /// Receives the message.
+        /// </summary>
+        /// <param name="message">The message.</param>
         public virtual void ReceiveMessage(T message)
         {
             try
@@ -27,6 +47,10 @@ namespace CrossChannel
             }
         }
 
+        /// <summary>
+        /// Opens the specified channel.
+        /// </summary>
+        /// <param name="channel">The channel.</param>
         public void Open(IChannel channel)
         {
             Channel = channel;
