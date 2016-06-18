@@ -25,3 +25,10 @@ deploy:
   on:
     branch: master
     appveyor_repo_tag: false # Change to true for realeasing only git tag/releases.
+notifications:
+- provider: Webhook
+  url: https://webhooks.gitter.im/e/d6f2d66375a666f1c5d9
+  method: POST
+  on_build_success: true
+  on_build_failure: true
+  on_build_status_changed: true
