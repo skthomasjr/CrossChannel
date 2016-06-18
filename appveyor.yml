@@ -24,7 +24,7 @@ deploy:
   artifact: $(NUGET_PACKAGE_ID).$(APPVEYOR_BUILD_VERSION).nupkg
   on:
     branch: master
-    appveyor_repo_tag: false # Change to true for realeasing only git tag/releases.
+    appveyor_repo_tag: true # Change to true for realeasing only git tag/releases.
 notifications:
 - provider: Webhook
   url: https://webhooks.gitter.im/e/d6f2d66375a666f1c5d9
