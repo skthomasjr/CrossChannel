@@ -8,3 +8,5 @@
 [![Join the chat at https://gitter.im/skthomasjr/CrossChannel](https://badges.gitter.im/skthomasjr/CrossChannel.svg)](https://gitter.im/skthomasjr/CrossChannel?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 CrossChannel is a framework for simple peer-to-peer (P2P) and inter-process communication (IPC).
+
+See the [assembly help documentation](http://skthomasjr.github.io/CrossChannel/Site/Help/Index.html) for help on usage and code samples.
