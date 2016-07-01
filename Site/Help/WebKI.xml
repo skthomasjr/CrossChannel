@@ -1,31 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpKI>
-  <HelpKINode Title=" enumeration member">
-    <HelpKINode Title="ChannelMode Enumeration" Url="html/1188161964.htm" />
-    <HelpKINode Title="ChannelMode Enumeration" Url="html/1188161964.htm" />
-    <HelpKINode Title="ChannelMode Enumeration" Url="html/1188161964.htm" />
-    <HelpKINode Title="ChannelMode Enumeration" Url="html/1188161964.htm" />
-    <HelpKINode Title="ChannelMode Enumeration" Url="html/1188161964.htm" />
-    <HelpKINode Title="ChannelMode Enumeration" Url="html/1188161964.htm" />
-    <HelpKINode Title="ChannelMode Enumeration" Url="html/1188161964.htm" />
-    <HelpKINode Title="ChannelMode Enumeration" Url="html/1188161964.htm" />
-    <HelpKINode Title="ChannelMode Enumeration" Url="html/1188161964.htm" />
-    <HelpKINode Title="ChannelMode Enumeration" Url="html/1188161964.htm" />
-    <HelpKINode Title="ChannelMode Enumeration" Url="html/1188161964.htm" />
-    <HelpKINode Title="ChannelMode Enumeration" Url="html/1188161964.htm" />
-    <HelpKINode Title="ChannelMode Enumeration" Url="html/1188161964.htm" />
-    <HelpKINode Title="ChannelMode Enumeration" Url="html/1188161964.htm" />
-    <HelpKINode Title="ChannelMode Enumeration" Url="html/1188161964.htm" />
-    <HelpKINode Title="ChannelMode Enumeration" Url="html/1188161964.htm" />
-    <HelpKINode Title="ChannelMode Enumeration" Url="html/1188161964.htm" />
-    <HelpKINode Title="ChannelMode Enumeration" Url="html/1188161964.htm" />
-    <HelpKINode Title="ChannelMode Enumeration" Url="html/1188161964.htm" />
-    <HelpKINode Title="ChannelMode Enumeration" Url="html/1188161964.htm" />
-    <HelpKINode Title="ChannelMode Enumeration" Url="html/1188161964.htm" />
-    <HelpKINode Title="ChannelMode Enumeration" Url="html/1188161964.htm" />
-    <HelpKINode Title="ChannelMode Enumeration" Url="html/1188161964.htm" />
-    <HelpKINode Title="ChannelMode Enumeration" Url="html/1188161964.htm" />
-  </HelpKINode>
   <HelpKINode Title="BroadcastReceiver(Of T) class">
     <HelpKINode Title="BroadcastReceiver(T) Class" Url="html/787253383.htm" />
     <HelpKINode Title="BroadcastReceiver(T) Members" Url="html/1599505993.htm" />
@@ -64,6 +38,9 @@
   </HelpKINode>
   <HelpKINode Title="BroadcastSender(Of T).Channel property" Url="html/2026452119.htm" />
   <HelpKINode Title="BroadcastSender(Of T).ExceptionThrown property" Url="html/628587736.htm" />
+  <HelpKINode Title="BroadcastSender(Of T).Open method" Url="html/997736446.htm" />
+  <HelpKINode Title="BroadcastSender(Of T).Send method" Url="html/552863348.htm" />
+  <HelpKINode Title="BroadcastSender(Of T).SendAsync method" Url="html/1519219049.htm" />
   <HelpKINode Title="BroadcastSender&lt;T&gt; class">
     <HelpKINode Title="BroadcastSender(T) Class" Url="html/1763759016.htm" />
     <HelpKINode Title="BroadcastSender(T) Members" Url="html/21086429.htm" />
@@ -74,6 +51,9 @@
   </HelpKINode>
   <HelpKINode Title="BroadcastSender&lt;T&gt;.Channel property" Url="html/2026452119.htm" />
   <HelpKINode Title="BroadcastSender&lt;T&gt;.ExceptionThrown property" Url="html/628587736.htm" />
+  <HelpKINode Title="BroadcastSender&lt;T&gt;.Open method" Url="html/997736446.htm" />
+  <HelpKINode Title="BroadcastSender&lt;T&gt;.Send method" Url="html/552863348.htm" />
+  <HelpKINode Title="BroadcastSender&lt;T&gt;.SendAsync method" Url="html/1519219049.htm" />
   <HelpKINode Title="Channel class">
     <HelpKINode Title="Channel Class" Url="html/265829438.htm" />
     <HelpKINode Title="Channel Members" Url="html/2052355982.htm" />
@@ -84,10 +64,10 @@
     <HelpKINode Title="properties" Url="html/488569902.htm" />
   </HelpKINode>
   <HelpKINode Title="Channel property">
-    <HelpKINode Title="Channel Property " Url="html/1770398932.htm" />
     <HelpKINode Title="Channel Property " Url="html/2026452119.htm" />
-    <HelpKINode Title="Channel Property " Url="html/1115955562.htm" />
     <HelpKINode Title="Channel Property " Url="html/1776575277.htm" />
+    <HelpKINode Title="Channel Property " Url="html/1770398932.htm" />
+    <HelpKINode Title="Channel Property " Url="html/1115955562.htm" />
   </HelpKINode>
   <HelpKINode Title="Channel.Channel constructor" Url="html/1258516509.htm" />
   <HelpKINode Title="Channel.Mode property" Url="html/1514212118.htm" />
@@ -129,10 +109,10 @@
   </HelpKINode>
   <HelpKINode Title="Dispose method" Url="html/1186837463.htm" />
   <HelpKINode Title="ExceptionThrown property">
-    <HelpKINode Title="ExceptionThrown Property " Url="html/803429391.htm" />
     <HelpKINode Title="ExceptionThrown Property " Url="html/628587736.htm" />
-    <HelpKINode Title="ExceptionThrown Property " Url="html/1515888759.htm" />
+    <HelpKINode Title="ExceptionThrown Property " Url="html/803429391.htm" />
     <HelpKINode Title="ExceptionThrown Property " Url="html/1346771513.htm" />
+    <HelpKINode Title="ExceptionThrown Property " Url="html/1515888759.htm" />
   </HelpKINode>
   <HelpKINode Title="IBroadcastReceiver interface">
     <HelpKINode Title="IBroadcastReceiver Members" Url="html/634326542.htm" />
@@ -197,12 +177,12 @@
   <HelpKINode Title="Mesh enumeration member" Url="html/1188161964.htm" />
   <HelpKINode Title="Mesh field" Url="html/1659963120.htm" />
   <HelpKINode Title="MessageReceived property">
-    <HelpKINode Title="MessageReceived Property " Url="html/1832933445.htm" />
     <HelpKINode Title="MessageReceived Property " Url="html/295466938.htm" />
+    <HelpKINode Title="MessageReceived Property " Url="html/1832933445.htm" />
   </HelpKINode>
   <HelpKINode Title="Mode property">
-    <HelpKINode Title="Mode Property " Url="html/1048524151.htm" />
     <HelpKINode Title="Mode Property " Url="html/1514212118.htm" />
+    <HelpKINode Title="Mode Property " Url="html/1048524151.htm" />
   </HelpKINode>
   <HelpKINode Title="Name property">
     <HelpKINode Title="Name Property " Url="html/2035934203.htm" />
@@ -210,13 +190,20 @@
   </HelpKINode>
   <HelpKINode Title="Open method">
     <HelpKINode Title="Open Method " Url="html/1887887521.htm" />
-    <HelpKINode Title="Open Method " Url="html/722922356.htm" />
     <HelpKINode Title="Open Method " Url="html/795063282.htm" />
+    <HelpKINode Title="Open Method " Url="html/997736446.htm" />
+    <HelpKINode Title="Open Method " Url="html/722922356.htm" />
   </HelpKINode>
   <HelpKINode Title="ReceiveMessage method">
     <HelpKINode Title="ReceiveMessage Method " Url="html/1644552572.htm" />
     <HelpKINode Title="ReceiveMessage Method " Url="html/1066668979.htm" />
   </HelpKINode>
-  <HelpKINode Title="Send method" Url="html/1607849447.htm" />
-  <HelpKINode Title="SendAsync method" Url="html/694566925.htm" />
+  <HelpKINode Title="Send method">
+    <HelpKINode Title="Send Method " Url="html/1607849447.htm" />
+    <HelpKINode Title="Send Method " Url="html/552863348.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SendAsync method">
+    <HelpKINode Title="SendAsync Method " Url="html/694566925.htm" />
+    <HelpKINode Title="SendAsync Method " Url="html/1519219049.htm" />
+  </HelpKINode>
 </HelpKI>
