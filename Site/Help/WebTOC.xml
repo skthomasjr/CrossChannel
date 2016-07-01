@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="ca2bc80e-b393-40a8-8b3b-05c30d2ac07b" Title="CrossChannel Namespace" Url="html/939745184.htm">
+    <HelpTOCNode Id="21ff0e8d-01d7-4086-9e52-effabc4c7222" Title="BroadcastReceiver(T) Class" Url="html/787253383.htm">
+      <HelpTOCNode Title="BroadcastReceiver(T) Members" Url="html/1599505993.htm" />
+      <HelpTOCNode Id="a5674350-c55c-4cd1-ae24-b2466f79185f" Title="BroadcastReceiver(T) Methods" Url="html/2086705169.htm">
+        <HelpTOCNode Title="Dispose Method " Url="html/1186837463.htm" />
+        <HelpTOCNode Title="Open Method " Url="html/1887887521.htm" />
+        <HelpTOCNode Title="ReceiveMessage Method " Url="html/1644552572.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3c888b7e-d636-4420-9263-1fad96fe7c84" Title="BroadcastReceiver(T) Properties" Url="html/933550382.htm">
+        <HelpTOCNode Title="Channel Property " Url="html/1776575277.htm" />
+        <HelpTOCNode Title="ExceptionThrown Property " Url="html/1346771513.htm" />
+        <HelpTOCNode Title="MessageReceived Property " Url="html/295466938.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8996b48a-7bd6-4b24-b816-1350104e36cc" Title="BroadcastSender(T) Class" Url="html/1763759016.htm">
+      <HelpTOCNode Title="BroadcastSender(T) Members" Url="html/21086429.htm" />
+      <HelpTOCNode Id="e75d648b-953d-456a-a78a-17f3fce47647" Title="BroadcastSender(T) Methods" Url="html/192098360.htm">
+        <HelpTOCNode Title="Open Method (IChannel)" Url="html/997736446.htm" />
+        <HelpTOCNode Title="Send Method (T)" Url="html/552863348.htm" />
+        <HelpTOCNode Title="SendAsync Method (T, CancellationToken)" Url="html/1519219049.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3e670556-88af-42eb-8149-086d9654569b" Title="BroadcastSender(T) Properties" Url="html/1089046054.htm">
+        <HelpTOCNode Title="Channel Property " Url="html/2026452119.htm" />
+        <HelpTOCNode Title="ExceptionThrown Property " Url="html/628587736.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="846c1155-fa92-487a-833a-fcd20c250766" Title="Channel Class" Url="html/265829438.htm">
+      <HelpTOCNode Title="Channel Members" Url="html/2052355982.htm" />
+      <HelpTOCNode Title="Channel Constructor " Url="html/1258516509.htm" />
+      <HelpTOCNode Title="Channel Methods" Url="html/1163192579.htm" />
+      <HelpTOCNode Id="bec98881-a6df-4fc9-9036-6565c0350ebf" Title="Channel Properties" Url="html/488569902.htm">
+        <HelpTOCNode Title="Mode Property " Url="html/1514212118.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/1379863312.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="ChannelMode Enumeration" Url="html/1188161964.htm" />
+    <HelpTOCNode Id="e3af4ab5-46f1-4e2b-8c0d-a49aa2102ab3" Title="IBroadcastReceiver(T) Interface" Url="html/1275706715.htm">
+      <HelpTOCNode Title="IBroadcastReceiver Members" Url="html/634326542.htm" />
+      <HelpTOCNode Id="27052bf4-88a5-4643-a602-285f9769fd73" Title="IBroadcastReceiver Methods" Url="html/511842254.htm">
+        <HelpTOCNode Title="Open Method " Url="html/722922356.htm" />
+        <HelpTOCNode Title="ReceiveMessage Method " Url="html/1066668979.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="37f23602-9e65-46d5-bbc8-caed2de0f033" Title="IBroadcastReceiver Properties" Url="html/1136252597.htm">
+        <HelpTOCNode Title="Channel Property " Url="html/1115955562.htm" />
+        <HelpTOCNode Title="ExceptionThrown Property " Url="html/803429391.htm" />
+        <HelpTOCNode Title="MessageReceived Property " Url="html/1832933445.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b99d340d-2ffc-40a8-aa90-482a9abd2e35" Title="IBroadcastSender(T) Interface" Url="html/136075616.htm">
+      <HelpTOCNode Title="IBroadcastSender Members" Url="html/980170809.htm" />
+      <HelpTOCNode Id="582fb4b0-9aed-4f8a-97ca-213afe37de15" Title="IBroadcastSender Methods" Url="html/1360731591.htm">
+        <HelpTOCNode Title="Open Method " Url="html/795063282.htm" />
+        <HelpTOCNode Title="Send Method " Url="html/1607849447.htm" />
+        <HelpTOCNode Title="SendAsync Method " Url="html/694566925.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2abd5683-bbf5-4afb-ad11-a07a89017b86" Title="IBroadcastSender Properties" Url="html/1056970339.htm">
+        <HelpTOCNode Title="Channel Property " Url="html/1770398932.htm" />
+        <HelpTOCNode Title="ExceptionThrown Property " Url="html/1515888759.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c5fe746c-2258-459b-9914-351ac0cae7c0" Title="IChannel Interface" Url="html/160120967.htm">
+      <HelpTOCNode Title="IChannel Members" Url="html/523627372.htm" />
+      <HelpTOCNode Title="IChannel Methods" Url="html/1064543743.htm" />
+      <HelpTOCNode Id="73d09012-8f25-4bdf-b7c2-293b2090a22b" Title="IChannel Properties" Url="html/101423044.htm">
+        <HelpTOCNode Title="Mode Property " Url="html/1048524151.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/2035934203.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

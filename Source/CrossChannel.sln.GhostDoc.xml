@@ -13,21 +13,21 @@
   </SpellChecker>
 <HelpConfigurations selected="HelpFile">
   <HelpConfiguration name="HelpFile">
-    <OutputPath>.\Help</OutputPath>
+    <OutputPath>..\Site\Help</OutputPath>
     <CleanupOutputPath>true</CleanupOutputPath>
-    <HelpFileName>CrossChannel</HelpFileName>
+    <HelpFileName>NetClient.Rest</HelpFileName>
     <ImageFolderPath />
-    <Theme />
+    <Theme>FlatGray</Theme>
     <HtmlFormats>
-      <HtmlHelp>true</HtmlHelp>
+      <HtmlHelp>false</HtmlHelp>
       <MSHelpViewer>false</MSHelpViewer>
       <MSHelp2>false</MSHelp2>
-      <Website>false</Website>
+      <Website>true</Website>
     </HtmlFormats>
     <IncludeScopes>
       <Public>true</Public>
       <Internal>false</Internal>
-      <Protected>false</Protected>
+      <Protected>true</Protected>
       <Private>false</Private>
       <Inherited>true</Inherited>
       <InheritedFromReferences>true</InheritedFromReferences>
@@ -39,12 +39,14 @@
     <SyntaxLanguages>
       <CSharp>true</CSharp>
       <VisualBasic>true</VisualBasic>
-      <CPlusPlus>true</CPlusPlus>
+      <CPlusPlus>false</CPlusPlus>
     </SyntaxLanguages>
     <ResolveCrefLinks>true</ResolveCrefLinks>
     <HeaderText />
     <FooterText />
-    <SelectedProjects />
+    <SelectedProjects>
+      <SelectedProject>CrossChannel.Net461</SelectedProject>
+    </SelectedProjects>
   </HelpConfiguration>
 </HelpConfigurations>
 <GeneralProperties>

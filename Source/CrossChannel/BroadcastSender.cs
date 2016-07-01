@@ -1,32 +1,20 @@
 ﻿using System;
 using System.ServiceModel;
 using System.Threading;
-
 #if (!NET30 && !NET35 && !NET40)
 using System.Threading.Tasks;
+
 #endif
 
 namespace CrossChannel
 {
     /// <summary>
-    /// The broadcast sender.
+    ///     The broadcast sender.
     /// </summary>
     /// <typeparam name="T"></typeparam>
     public class BroadcastSender<T> : IBroadcastSender<T>
     {
         private IBroadcastReceiver<T> client;
-
-        /// <summary>
-        /// Gets the channel.
-        /// </summary>
-        /// <value>The channel.</value>
-        public IChannel Channel { get; private set; }
-
-        /// <summary>
-        /// Gets or sets the action to be executed when an exception is thrown.
-        /// </summary>
-        /// <value>The exception thrown.</value>
-        public Action<T, Exception> ExceptionThrown { get; set; }
 
         private ChannelFactory<IBroadcastReceiver<T>> GetChannelFactory()
         {
@@ -60,7 +48,19 @@ namespace CrossChannel
         }
 
         /// <summary>
-        /// Opens the specified channel.
+        ///     Gets the channel.
+        /// </summary>
+        /// <value>The channel.</value>
+        public IChannel Channel { get; private set; }
+
+        /// <summary>
+        ///     Gets or sets the action to be executed when an exception is thrown.
+        /// </summary>
+        /// <value>The exception thrown.</value>
+        public Action<T, Exception> ExceptionThrown { get; set; }
+
+        /// <summary>
+        ///     Opens the specified channel.
         /// </summary>
         /// <param name="channel">The channel.</param>
         public void Open(IChannel channel)
@@ -69,7 +69,7 @@ namespace CrossChannel
         }
 
         /// <summary>
-        /// Sends the specified message.
+        ///     Sends the specified message.
         /// </summary>
         /// <param name="message">The message.</param>
         public void Send(T message)
@@ -89,7 +89,7 @@ namespace CrossChannel
 
 #if (!NET30 && !NET35 && !NET40)
         /// <summary>
-        /// Sends asynchronously.
+        ///     Sends asynchronously.
         /// </summary>
         /// <param name="message">The message.</param>
         /// <param name="cancellationToken">The cancellation token.</param>

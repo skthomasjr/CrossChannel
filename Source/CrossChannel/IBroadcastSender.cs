@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Threading;
-
 #if (!NET30 && !NET35 && !NET40)
 using System.Threading.Tasks;
 #endif
@@ -8,38 +7,38 @@ using System.Threading.Tasks;
 namespace CrossChannel
 {
     /// <summary>
-    /// The broadcast sender.
+    ///     The broadcast sender.
     /// </summary>
     /// <typeparam name="T">The message type.</typeparam>
     public interface IBroadcastSender<T>
     {
         /// <summary>
-        /// Gets the channel.
+        ///     Gets the channel.
         /// </summary>
         /// <value>The channel.</value>
         IChannel Channel { get; }
 
         /// <summary>
-        /// Gets or sets the action to be executed when an exception is thrown.
+        ///     Gets or sets the action to be executed when an exception is thrown.
         /// </summary>
         /// <value>The exception thrown.</value>
         Action<T, Exception> ExceptionThrown { get; set; }
 
         /// <summary>
-        /// Opens the specified channel.
+        ///     Opens the specified channel.
         /// </summary>
         /// <param name="channel">The channel.</param>
         void Open(IChannel channel);
 
         /// <summary>
-        /// Sends the specified message.
+        ///     Sends the specified message.
         /// </summary>
         /// <param name="message">The message.</param>
         void Send(T message);
 
 #if (!NET30 && !NET35 && !NET40)
         /// <summary>
-        /// Sends asynchronously.
+        ///     Sends asynchronously.
         /// </summary>
         /// <param name="message">The message.</param>
         /// <param name="cancellationToken">The cancellation token.</param>
